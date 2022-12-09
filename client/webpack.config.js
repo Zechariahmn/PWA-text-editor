@@ -22,12 +22,24 @@ module.exports = () => {
         template: "./index.html",
         title: "JATE",
       }),
-      
+
       // injects our custom service work from src-sw.js
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
       }),
+
+      // creates a manifest.json file
+      new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: "Just Another Text Editor",
+        short_name: "JATE",
+        description: "Text Editor with offline capabilities using IndexedDB",
+        background_color: "#225ca3",
+        theme_color: "#225ca3",
+        start_url: "/",
+        publicPath: "/",
       
     ],
 
