@@ -22,6 +22,11 @@ To install necessary dependencies, run the following command:
 ```npm i```
 
 ## Usage
+![Screenshot 2022-12-09 231310](https://user-images.githubusercontent.com/110499007/206828439-74815352-d9d5-4f11-ab7f-5f08782cb8a4.png)
+![Screenshot 2022-12-09 231351](https://user-images.githubusercontent.com/110499007/206828443-f2832462-e613-4772-96f1-15da6484c462.png)
+![Screenshot 2022-12-09 231426](https://user-images.githubusercontent.com/110499007/206828449-fc148ac5-f318-43cb-84bf-cfe8aeb94e4a.png)
+
+
 In order to use this repo the user must first clone down the repo and then run the command ```npm i``` and make sure that each package json file has its corresponding package-lock file and node modules folders. The user must then run the  ```npm run start:dev``` command in order to get the necessary dist folder with the needed files to run the application. Finally the user can then run the ```npm run start``` command to allow the application to listen to the localhost server and function properly.
 
 ## Heroku URL
